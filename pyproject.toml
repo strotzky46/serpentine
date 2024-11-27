@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+    "setuptools"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "annelida"
+authors = [
+    { name = "Stefan Trotzky", email = "strotzky@sensortechcanada.com"}
+]
+version = "0.1.0"
+dependencies = [
+    "numpy",
+    "scipy",
+]
+requires-python = ">=3.8"
