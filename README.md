@@ -2,6 +2,9 @@
 > Initial population in progress
 
 # serpentine
+![image](https://github.com/user-attachments/assets/5f5255f8-8781-4b1c-82b8-9d6f68aad2ce)
+
+
 
 A python package for array- and towline-shape estimation based on physical models derived from Païdoussis equation and equivalent formulations
 and measurement input.
