@@ -4,8 +4,6 @@
 # serpentine
 ![image](https://github.com/user-attachments/assets/5f5255f8-8781-4b1c-82b8-9d6f68aad2ce)
 
-
-
 A python package for array- and towline-shape estimation based on physical models derived from Païdoussis equation and equivalent formulations
 and measurement input.
 
@@ -16,3 +14,8 @@ class (to be implemented) draws from the [Array-Definition](https://github.com/s
 
 The scripts folder of the repo collects individual implementations and solutions using the tools of the core
 package.
+
+## Coordinates
+`Serpent`s use a relative euklidian coordinate system with the x-axis pointing in the tow direction (fluid flow in -x), 
+the z-direction pointing up (gravity acts in -z direction), and y completing the right-handed system (y points to port 
+in the tow-vessel's context). The origin for a `Serpent` 
