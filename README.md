@@ -1,16 +1,15 @@
 > [!NOTE]
 > Initial population in progress
 
-# annelida
+# serpentine
 
-A python package for array-shape estimation based on physical models derived from Païdoussis equation and equivalent formulations
+A python package for array- and towline-shape estimation based on physical models derived from Païdoussis equation and equivalent formulations
 and measurement input.
 
-The core package collects several solving and plotting tools.
+The core contains the class `Serpent()` representing a segmentation of a flexible cylinder (aka cable, hose, array, towline, ...). 
+Various solvers are implemented to solve specific cases and return `Serpent`s for visualization and/or further processing. A `Serpent`
+may also solve as a physical definition of the towline/array that is passed to a solver to determine its shape. In this case, the
+class (to be implemented) draws from the array definition repo.
 
 The scripts folder of the repo collects individual implementations and solutions using the tools of the core
 package.
-
-> [!NOTE]
-> Annelida is a phylum containing ovr 22,000 species of segmented worms under the animal kindom. Just the right name 
-> for a package that handles the worm like shape of segmented thin-line towed arrays. 
